@@ -75,63 +75,63 @@ formatter.match({
   "location": "HomePageStepDefinition.launch(String)"
 });
 formatter.result({
-  "duration": 981848000,
+  "duration": 1273678400,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageStepDefinition.enter_credentials_and_click_login()"
 });
 formatter.result({
-  "duration": 6144514900,
+  "duration": 6135321900,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageStepDefinition.click_on_Fleece_Jacket()"
 });
 formatter.result({
-  "duration": 2225995100,
+  "duration": 2392789900,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageStepDefinition.add_Items_to_the_Cart()"
 });
 formatter.result({
-  "duration": 2109003200,
+  "duration": 2119147500,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageStepDefinition.click_on_cart()"
 });
 formatter.result({
-  "duration": 1284051900,
+  "duration": 1309661500,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageStepDefinition.click_on_CheckoutButton()"
 });
 formatter.result({
-  "duration": 224017300,
+  "duration": 224431600,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageStepDefinition.plugin_cutomer_data_and_click_continue()"
 });
 formatter.result({
-  "duration": 4683138100,
+  "duration": 4785357800,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageStepDefinition.click_on_finish_order()"
 });
 formatter.result({
-  "duration": 4318435100,
+  "duration": 4339168400,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageStepDefinition.verify_order_was_placed()"
 });
 formatter.result({
-  "duration": 3482478600,
+  "duration": 3479849900,
   "status": "passed"
 });
 });
