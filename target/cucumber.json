@@ -1,0 +1,142 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login and purchase",
+        "description": "",
+        "id": "test-login-functionality;login-and-purchase",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 981848000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch \"\u003curl\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003curl\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "HomePageStepDefinition.launch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6144514900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter credentials and click login",
+            "match": {
+              "location": "HomePageStepDefinition.enter_credentials_and_click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2225995100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Fleece Jacket",
+            "match": {
+              "location": "HomePageStepDefinition.click_on_Fleece_Jacket()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2109003200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Add Items to the Cart",
+            "match": {
+              "location": "HomePageStepDefinition.add_Items_to_the_Cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1284051900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on cart",
+            "match": {
+              "location": "HomePageStepDefinition.click_on_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 224017300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on CheckoutButton",
+            "match": {
+              "location": "HomePageStepDefinition.click_on_CheckoutButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4683138100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Plugin cutomer data and click continue",
+            "match": {
+              "location": "HomePageStepDefinition.plugin_cutomer_data_and_click_continue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4318435100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on finish order",
+            "match": {
+              "location": "HomePageStepDefinition.click_on_finish_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3482478600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify order was placed",
+            "match": {
+              "location": "HomePageStepDefinition.verify_order_was_placed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Order"
+          }
+        ]
+      }
+    ],
+    "name": "Test Login functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/Features/home.feature"
+  }
+]
